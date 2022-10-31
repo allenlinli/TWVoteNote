@@ -7,16 +7,16 @@
 
 import Foundation
 
-typealias AdminAreaList = AdministrativeAreaList
 typealias AdminArea = AdministrativeArea
-
-struct AdministrativeAreaList: Codable {
-    var adminAreas: [AdminArea]
-}
 
 struct AdministrativeArea: Codable, Identifiable {
     let area: Area
     let elections: [Area]
+    
+    enum CodingKeys: String, CodingKey {
+        case area = "Area"
+        case elections = "Election"
+    }
     
     var id: String {
         area.id

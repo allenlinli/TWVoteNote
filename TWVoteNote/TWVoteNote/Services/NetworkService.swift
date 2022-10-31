@@ -20,7 +20,7 @@ struct BackendError: Codable, Error {
 }
 
 protocol NetworkServiceProtocol {
-    func fetchAdminAreaList() -> AnyPublisher<DataResponse<AdministrativeAreaList, NetworkError>, Never>
+    func fetchAdminAreaList() -> AnyPublisher<DataResponse<[AdministrativeArea], NetworkError>, Never>
 }
 
 
@@ -30,7 +30,7 @@ class NetworkService {
 }
 
 extension NetworkService: NetworkServiceProtocol {
-    func fetchAdminAreaList() -> AnyPublisher<DataResponse<AdministrativeAreaList, NetworkError>, Never> {
+    func fetchAdminAreaList() -> AnyPublisher<DataResponse<[AdministrativeArea], NetworkError>, Never> {
         /*
          選舉黃頁 API (alpha)
          https://g0v.hackpad.tw/-API-alpha-y3IHgVIYYSY
@@ -43,7 +43,7 @@ extension NetworkService: NetworkServiceProtocol {
         return AF.request(url,
                           method: .get)
             .validate()
-            .publishDecodable(type: AdministrativeAreaList.self)
+            .publishDecodable(type: [AdministrativeArea].self)
             .map { response in
                 response.mapError { error in
                     let backendError = response.data.flatMap { try? JSONDecoder().decode(BackendError.self, from: $0)}

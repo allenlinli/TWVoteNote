@@ -29,7 +29,7 @@ class AdminAreaListViewModel: ObservableObject {
                     self.createAlert(with: dataResponse.error!)
                     return
                 }
-                self.adminAreas = dataResponse.value!.adminAreas
+                self.adminAreas = dataResponse.value!
             }.store(in: &cancellableSet)
     }
     
