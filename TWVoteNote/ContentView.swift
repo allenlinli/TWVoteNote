@@ -17,11 +17,7 @@ struct ContentView: View {
                 ForEach($viewModel.adminAreas, id: \.id) { adminArea in
                     HStack {
                         VStack(alignment: .leading) {
-//                            Text(adminArea.name)
-//                                .foregroundColor(.white)
-//                                .font(.custom("Avenir", size: 16))
-//                                .fontWeight(.heavy)
-                            Text("allen")
+                            Text(adminArea.area.name.wrappedValue)
                         }.padding(.horizontal)
                         Spacer()
                     }

@@ -10,7 +10,8 @@ import Foundation
 typealias AdminArea = AdministrativeArea
 
 struct AdministrativeArea: Codable, Identifiable {
-    let area: Area
+    // MARK: why should this one be var
+    var area: Area
     let elections: [Area]
     
     enum CodingKeys: String, CodingKey {
@@ -25,7 +26,7 @@ struct AdministrativeArea: Codable, Identifiable {
 
 // MARK: - Area
 struct Area: Codable {
-    let id, name: String
+    var id, name: String
     let ivid, code: String?
     let left, right, population, populationElectors: String
     

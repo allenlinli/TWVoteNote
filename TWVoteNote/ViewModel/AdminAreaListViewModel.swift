@@ -23,13 +23,9 @@ class AdminAreaListViewModel: ObservableObject {
     
     func getAdminAreaList() {
         dataManager.fetchAdminAreaList()
-            .sink { [weak self] (dataResponse) in
+            .sink { [weak self] (administrativeAreas) in
                 guard let self = self else { return }
-                guard dataResponse.error == nil else {
-                    self.createAlert(with: dataResponse.error!)
-                    return
-                }
-                self.adminAreas = dataResponse.value!
+                self.adminAreas = administrativeAreas
             }.store(in: &cancellableSet)
     }
     
