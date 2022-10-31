@@ -18,6 +18,7 @@
 		3B42CF4A290F76DB00653E5A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3B42CF49290F76DB00653E5A /* Alamofire */; };
 		3B42CF4D290F778800653E5A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF4C290F778800653E5A /* NetworkService.swift */; };
 		3B42CF50290F794E00653E5A /* AdminAreaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF4F290F794E00653E5A /* AdminAreaListViewModel.swift */; };
+		3B9EFFF629100A4A00B2F4BE /* AdministrativeAreaList.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B9EFFF529100A4A00B2F4BE /* AdministrativeAreaList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3B42CF46290F725C00653E5A /* AdministrativeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministrativeArea.swift; sourceTree = "<group>"; };
 		3B42CF4C290F778800653E5A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		3B42CF4F290F794E00653E5A /* AdminAreaListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAreaListViewModel.swift; sourceTree = "<group>"; };
+		3B9EFFF529100A4A00B2F4BE /* AdministrativeAreaList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdministrativeAreaList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				3B42CF46290F725C00653E5A /* AdministrativeArea.swift */,
+				3B9EFFF529100A4A00B2F4BE /* AdministrativeAreaList.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B42CF23290F722100653E5A /* Preview Assets.xcassets in Resources */,
+				3B9EFFF629100A4A00B2F4BE /* AdministrativeAreaList.json in Resources */,
 				3B42CF20290F722100653E5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,7 +464,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TWVoteNote/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "TWVoteNote/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -488,7 +492,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TWVoteNote/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "TWVoteNote/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
