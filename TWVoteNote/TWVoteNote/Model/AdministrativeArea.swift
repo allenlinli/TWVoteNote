@@ -7,8 +7,11 @@
 
 import Foundation
 
+typealias AdminAreaList = AdministrativeAreaList
+typealias AdminArea = AdministrativeArea
+
 struct AdministrativeAreaList: Codable {
-    var administrativeAreas: [AdministrativeArea]
+    var adminAreas: [AdminArea]
 }
 
 struct AdministrativeArea: Codable {

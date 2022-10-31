@@ -17,6 +17,7 @@
 		3B42CF47290F725C00653E5A /* AdministrativeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF46290F725C00653E5A /* AdministrativeArea.swift */; };
 		3B42CF4A290F76DB00653E5A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3B42CF49290F76DB00653E5A /* Alamofire */; };
 		3B42CF4D290F778800653E5A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF4C290F778800653E5A /* NetworkService.swift */; };
+		3B42CF50290F794E00653E5A /* AdminAreaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF4F290F794E00653E5A /* AdminAreaListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3B42CF38290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWVoteNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3B42CF46290F725C00653E5A /* AdministrativeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministrativeArea.swift; sourceTree = "<group>"; };
 		3B42CF4C290F778800653E5A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3B42CF4F290F794E00653E5A /* AdminAreaListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAreaListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */,
 				3B42CF1D290F722100653E5A /* ContentView.swift */,
+				3B42CF4E290F793600653E5A /* ViewModel */,
 				3B42CF45290F724400653E5A /* Model */,
 				3B42CF4B290F777100653E5A /* Services */,
 				3B42CF1F290F722100653E5A /* Assets.xcassets */,
@@ -149,6 +152,14 @@
 				3B42CF4C290F778800653E5A /* NetworkService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		3B42CF4E290F793600653E5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B42CF4F290F794E00653E5A /* AdminAreaListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				3B42CF1E290F722100653E5A /* ContentView.swift in Sources */,
 				3B42CF1C290F722100653E5A /* TWVoteNoteApp.swift in Sources */,
 				3B42CF4D290F778800653E5A /* NetworkService.swift in Sources */,
+				3B42CF50290F794E00653E5A /* AdminAreaListViewModel.swift in Sources */,
 				3B42CF47290F725C00653E5A /* AdministrativeArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
