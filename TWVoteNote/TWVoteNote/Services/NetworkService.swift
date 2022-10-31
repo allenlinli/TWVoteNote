@@ -38,7 +38,7 @@ extension NetworkService: NetworkServiceProtocol {
          取得單層行政區資料， index/ 後面可以接個別行政區 id 來取得下一層資料
          index/ 後面沒有參數會顯示最上層（目前是縣市）
          */
-        let url = URL(string: "http://elections.olc.tw/api/areas/index")!
+        let url = URL(string: "https://elections.olc.tw/api/areas/index")!
         
         return AF.request(url,
                           method: .get)
