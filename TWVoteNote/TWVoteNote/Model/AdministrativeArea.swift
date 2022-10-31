@@ -7,6 +7,10 @@
 
 import Foundation
 
+struct AdministrativeAreaList: Codable {
+    var administrativeAreas: [AdministrativeArea]
+}
+
 struct AdministrativeArea: Codable {
     let area: Area
     let elections: [Area]
