@@ -19,6 +19,8 @@
 		3B42CF4D290F778800653E5A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF4C290F778800653E5A /* NetworkService.swift */; };
 		3B42CF50290F794E00653E5A /* AdminAreaCityAndCountyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF4F290F794E00653E5A /* AdminAreaCityAndCountyListViewModel.swift */; };
 		3B9EFFF629100A4A00B2F4BE /* AdministrativeAreaList.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B9EFFF529100A4A00B2F4BE /* AdministrativeAreaList.json */; };
+		3B9EFFF829101DDB00B2F4BE /* AdminAreaTownshipAndDistrictListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFFF729101DDB00B2F4BE /* AdminAreaTownshipAndDistrictListView.swift */; };
+		3B9EFFFA29101EE900B2F4BE /* AdminAreaTownshipAndDistrictListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFFF929101EE900B2F4BE /* AdminAreaTownshipAndDistrictListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3B42CF4C290F778800653E5A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		3B42CF4F290F794E00653E5A /* AdminAreaCityAndCountyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAreaCityAndCountyListViewModel.swift; sourceTree = "<group>"; };
 		3B9EFFF529100A4A00B2F4BE /* AdministrativeAreaList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdministrativeAreaList.json; sourceTree = "<group>"; };
+		3B9EFFF729101DDB00B2F4BE /* AdminAreaTownshipAndDistrictListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAreaTownshipAndDistrictListView.swift; sourceTree = "<group>"; };
+		3B9EFFF929101EE900B2F4BE /* AdminAreaTownshipAndDistrictListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAreaTownshipAndDistrictListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 			children = (
 				3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */,
 				3B42CF1D290F722100653E5A /* AdminAreaCityAndCountyListView.swift */,
+				3B9EFFF729101DDB00B2F4BE /* AdminAreaTownshipAndDistrictListView.swift */,
 				3B42CF4E290F793600653E5A /* ViewModel */,
 				3B42CF45290F724400653E5A /* Model */,
 				3B42CF4B290F777100653E5A /* Services */,
@@ -161,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				3B42CF4F290F794E00653E5A /* AdminAreaCityAndCountyListViewModel.swift */,
+				3B9EFFF929101EE900B2F4BE /* AdminAreaTownshipAndDistrictListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -303,7 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B42CF1E290F722100653E5A /* AdminAreaCityAndCountyListView.swift in Sources */,
+				3B9EFFF829101DDB00B2F4BE /* AdminAreaTownshipAndDistrictListView.swift in Sources */,
 				3B42CF1C290F722100653E5A /* TWVoteNoteApp.swift in Sources */,
+				3B9EFFFA29101EE900B2F4BE /* AdminAreaTownshipAndDistrictListViewModel.swift in Sources */,
 				3B42CF4D290F778800653E5A /* NetworkService.swift in Sources */,
 				3B42CF50290F794E00653E5A /* AdminAreaCityAndCountyListViewModel.swift in Sources */,
 				3B42CF47290F725C00653E5A /* AdministrativeArea.swift in Sources */,

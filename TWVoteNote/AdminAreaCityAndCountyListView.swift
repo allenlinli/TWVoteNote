@@ -15,7 +15,7 @@ struct AdminAreaCityAndCountyListView: View {
         NavigationView {
             List($viewModel.adminAreas.reversed()) { adminArea in
                 NavigationLink {
-                    Text("123")
+                    AdminAreaTownshipAndDistrictListView()
                 } label: {
                     Text(adminArea.area.name.wrappedValue)
                 }
@@ -26,7 +26,7 @@ struct AdminAreaCityAndCountyListView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AdminAreaCityAndCountyListView_Previews: PreviewProvider {
     static var previews: some View {
         AdminAreaCityAndCountyListView()
     }
