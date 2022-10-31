@@ -14,9 +14,13 @@ struct AdministrativeAreaList: Codable {
     var adminAreas: [AdminArea]
 }
 
-struct AdministrativeArea: Codable {
+struct AdministrativeArea: Codable, Identifiable {
     let area: Area
     let elections: [Area]
+    
+    var id: String {
+        area.id
+    }
 }
 
 // MARK: - Area

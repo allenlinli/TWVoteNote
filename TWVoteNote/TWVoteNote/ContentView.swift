@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel = AdminAreaListViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView {
+            LazyVStack {
+                ForEach($viewModel.adminAreas, id: \.id) { adminArea in
+                    HStack {
+                        VStack(alignment: .leading) {
+//                            Text(adminArea.name)
+//                                .foregroundColor(.white)
+//                                .font(.custom("Avenir", size: 16))
+//                                .fontWeight(.heavy)
+                            Text("allen")
+                        }.padding(.horizontal)
+                        Spacer()
+                    }
+                    .padding(.vertical, 8)
+                    .padding(.horizontal)
+                }
+            }
+        }
     }
 }
 
