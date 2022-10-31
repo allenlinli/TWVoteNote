@@ -20,7 +20,7 @@ struct BackendError: Codable, Error {
 }
 
 protocol NetworkServiceProtocol {
-    func fetchAdminAreaList() -> AnyPublisher<[AdministrativeArea], Never>
+    func fetchAdminAreaCityAndCountyList() -> AnyPublisher<[AdministrativeArea], Never>
 }
 
 
@@ -44,7 +44,7 @@ class NetworkService {
 }
 
 extension NetworkService: NetworkServiceProtocol {
-    func fetchAdminAreaList() -> AnyPublisher<[AdministrativeArea], Never> {
+    func fetchAdminAreaCityAndCountyList() -> AnyPublisher<[AdministrativeArea], Never> {
         /*
          選舉黃頁 API (alpha)
          https://g0v.hackpad.tw/-API-alpha-y3IHgVIYYSY

@@ -22,7 +22,7 @@ class AdminAreaTownshipAndDistrictListViewModel: ObservableObject {
     }
     
     func getAdminAreaList() {
-        dataManager.fetchAdminAreaList()
+        dataManager.fetchAdminAreaCityAndCountyList()
             .sink { [weak self] (administrativeAreas) in
                 guard let self = self else { return }
                 self.adminAreas = administrativeAreas
