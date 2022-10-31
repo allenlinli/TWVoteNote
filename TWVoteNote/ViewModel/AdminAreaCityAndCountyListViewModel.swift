@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-class AdminAreaListViewModel: ObservableObject {
+class AdminAreaCityAndCountyListViewModel: ObservableObject {
     
     @Published var adminAreas =  [AdminArea]()
     @Published var adminAreaListLoadingError: String = ""
