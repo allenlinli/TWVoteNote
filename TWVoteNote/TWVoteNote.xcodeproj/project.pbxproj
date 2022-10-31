@@ -14,6 +14,7 @@
 		3B42CF2D290F722100653E5A /* TWVoteNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF2C290F722100653E5A /* TWVoteNoteTests.swift */; };
 		3B42CF37290F722100653E5A /* TWVoteNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF36290F722100653E5A /* TWVoteNoteUITests.swift */; };
 		3B42CF39290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF38290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift */; };
+		3B42CF47290F725C00653E5A /* AdministrativeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF46290F725C00653E5A /* AdministrativeArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3B42CF32290F722100653E5A /* TWVoteNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWVoteNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B42CF36290F722100653E5A /* TWVoteNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWVoteNoteUITests.swift; sourceTree = "<group>"; };
 		3B42CF38290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWVoteNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B42CF46290F725C00653E5A /* AdministrativeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministrativeArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */,
 				3B42CF1D290F722100653E5A /* ContentView.swift */,
+				3B42CF45290F724400653E5A /* Model */,
 				3B42CF1F290F722100653E5A /* Assets.xcassets */,
 				3B42CF21290F722100653E5A /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				3B42CF38290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift */,
 			);
 			path = TWVoteNoteUITests;
+			sourceTree = "<group>";
+		};
+		3B42CF45290F724400653E5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B42CF46290F725C00653E5A /* AdministrativeArea.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				3B42CF1E290F722100653E5A /* ContentView.swift in Sources */,
 				3B42CF1C290F722100653E5A /* TWVoteNoteApp.swift in Sources */,
+				3B42CF47290F725C00653E5A /* AdministrativeArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
