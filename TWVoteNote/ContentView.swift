@@ -12,20 +12,17 @@ struct ContentView: View {
     @ObservedObject var viewModel = AdminAreaListViewModel()
     
     var body: some View {
-        ScrollView {
-            LazyVStack {
-                ForEach($viewModel.adminAreas, id: \.id) { adminArea in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(adminArea.area.name.wrappedValue)
-                        }.padding(.horizontal)
-                        Spacer()
-                    }
-                    .padding(.vertical, 8)
-                    .padding(.horizontal)
+        NavigationView {
+            List($viewModel.adminAreas.reversed()) { adminArea in
+                NavigationLink {
+                    Text("123")
+                } label: {
+                    Text(adminArea.area.name.wrappedValue)
                 }
             }
+            .navigationTitle("選舉筆記本")
         }
+        
     }
 }
 
