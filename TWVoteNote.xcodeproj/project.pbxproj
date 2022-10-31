@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B42CF1C290F722100653E5A /* TWVoteNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */; };
-		3B42CF1E290F722100653E5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF1D290F722100653E5A /* ContentView.swift */; };
+		3B42CF1E290F722100653E5A /* AdminAreaCityAndCountyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF1D290F722100653E5A /* AdminAreaCityAndCountyListView.swift */; };
 		3B42CF20290F722100653E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B42CF1F290F722100653E5A /* Assets.xcassets */; };
 		3B42CF23290F722100653E5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B42CF22290F722100653E5A /* Preview Assets.xcassets */; };
 		3B42CF2D290F722100653E5A /* TWVoteNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF2C290F722100653E5A /* TWVoteNoteTests.swift */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		3B42CF18290F722100653E5A /* TWVoteNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWVoteNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWVoteNoteApp.swift; sourceTree = "<group>"; };
-		3B42CF1D290F722100653E5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B42CF1D290F722100653E5A /* AdminAreaCityAndCountyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAreaCityAndCountyListView.swift; sourceTree = "<group>"; };
 		3B42CF1F290F722100653E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B42CF22290F722100653E5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B42CF28290F722100653E5A /* TWVoteNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWVoteNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */,
-				3B42CF1D290F722100653E5A /* ContentView.swift */,
+				3B42CF1D290F722100653E5A /* AdminAreaCityAndCountyListView.swift */,
 				3B42CF4E290F793600653E5A /* ViewModel */,
 				3B42CF45290F724400653E5A /* Model */,
 				3B42CF4B290F777100653E5A /* Services */,
@@ -302,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B42CF1E290F722100653E5A /* ContentView.swift in Sources */,
+				3B42CF1E290F722100653E5A /* AdminAreaCityAndCountyListView.swift in Sources */,
 				3B42CF1C290F722100653E5A /* TWVoteNoteApp.swift in Sources */,
 				3B42CF4D290F778800653E5A /* NetworkService.swift in Sources */,
 				3B42CF50290F794E00653E5A /* AdminAreaCityAndCountyListViewModel.swift in Sources */,
