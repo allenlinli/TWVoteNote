@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B42CF1C290F722100653E5A /* TWVoteNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */; };
+		3B42CF1E290F722100653E5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF1D290F722100653E5A /* ContentView.swift */; };
+		3B42CF20290F722100653E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B42CF1F290F722100653E5A /* Assets.xcassets */; };
+		3B42CF23290F722100653E5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B42CF22290F722100653E5A /* Preview Assets.xcassets */; };
+		3B42CF2D290F722100653E5A /* TWVoteNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF2C290F722100653E5A /* TWVoteNoteTests.swift */; };
+		3B42CF37290F722100653E5A /* TWVoteNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF36290F722100653E5A /* TWVoteNoteUITests.swift */; };
+		3B42CF39290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42CF38290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B42CF29290F722100653E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B42CF10290F722100653E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B42CF17290F722100653E5A;
+			remoteInfo = TWVoteNote;
+		};
+		3B42CF33290F722100653E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B42CF10290F722100653E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B42CF17290F722100653E5A;
+			remoteInfo = TWVoteNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B42CF18290F722100653E5A /* TWVoteNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWVoteNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWVoteNoteApp.swift; sourceTree = "<group>"; };
+		3B42CF1D290F722100653E5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B42CF1F290F722100653E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B42CF22290F722100653E5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B42CF28290F722100653E5A /* TWVoteNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWVoteNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B42CF2C290F722100653E5A /* TWVoteNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWVoteNoteTests.swift; sourceTree = "<group>"; };
+		3B42CF32290F722100653E5A /* TWVoteNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWVoteNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B42CF36290F722100653E5A /* TWVoteNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWVoteNoteUITests.swift; sourceTree = "<group>"; };
+		3B42CF38290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWVoteNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B42CF15290F722100653E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B42CF25290F722100653E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B42CF2F290F722100653E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B42CF0F290F722100653E5A = {
+			isa = PBXGroup;
+			children = (
+				3B42CF1A290F722100653E5A /* TWVoteNote */,
+				3B42CF2B290F722100653E5A /* TWVoteNoteTests */,
+				3B42CF35290F722100653E5A /* TWVoteNoteUITests */,
+				3B42CF19290F722100653E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B42CF19290F722100653E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B42CF18290F722100653E5A /* TWVoteNote.app */,
+				3B42CF28290F722100653E5A /* TWVoteNoteTests.xctest */,
+				3B42CF32290F722100653E5A /* TWVoteNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B42CF1A290F722100653E5A /* TWVoteNote */ = {
+			isa = PBXGroup;
+			children = (
+				3B42CF1B290F722100653E5A /* TWVoteNoteApp.swift */,
+				3B42CF1D290F722100653E5A /* ContentView.swift */,
+				3B42CF1F290F722100653E5A /* Assets.xcassets */,
+				3B42CF21290F722100653E5A /* Preview Content */,
+			);
+			path = TWVoteNote;
+			sourceTree = "<group>";
+		};
+		3B42CF21290F722100653E5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B42CF22290F722100653E5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B42CF2B290F722100653E5A /* TWVoteNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B42CF2C290F722100653E5A /* TWVoteNoteTests.swift */,
+			);
+			path = TWVoteNoteTests;
+			sourceTree = "<group>";
+		};
+		3B42CF35290F722100653E5A /* TWVoteNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B42CF36290F722100653E5A /* TWVoteNoteUITests.swift */,
+				3B42CF38290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift */,
+			);
+			path = TWVoteNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B42CF17290F722100653E5A /* TWVoteNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B42CF3C290F722100653E5A /* Build configuration list for PBXNativeTarget "TWVoteNote" */;
+			buildPhases = (
+				3B42CF14290F722100653E5A /* Sources */,
+				3B42CF15290F722100653E5A /* Frameworks */,
+				3B42CF16290F722100653E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWVoteNote;
+			productName = TWVoteNote;
+			productReference = 3B42CF18290F722100653E5A /* TWVoteNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B42CF27290F722100653E5A /* TWVoteNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B42CF3F290F722100653E5A /* Build configuration list for PBXNativeTarget "TWVoteNoteTests" */;
+			buildPhases = (
+				3B42CF24290F722100653E5A /* Sources */,
+				3B42CF25290F722100653E5A /* Frameworks */,
+				3B42CF26290F722100653E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B42CF2A290F722100653E5A /* PBXTargetDependency */,
+			);
+			name = TWVoteNoteTests;
+			productName = TWVoteNoteTests;
+			productReference = 3B42CF28290F722100653E5A /* TWVoteNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B42CF31290F722100653E5A /* TWVoteNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B42CF42290F722100653E5A /* Build configuration list for PBXNativeTarget "TWVoteNoteUITests" */;
+			buildPhases = (
+				3B42CF2E290F722100653E5A /* Sources */,
+				3B42CF2F290F722100653E5A /* Frameworks */,
+				3B42CF30290F722100653E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B42CF34290F722100653E5A /* PBXTargetDependency */,
+			);
+			name = TWVoteNoteUITests;
+			productName = TWVoteNoteUITests;
+			productReference = 3B42CF32290F722100653E5A /* TWVoteNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B42CF10290F722100653E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3B42CF17290F722100653E5A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3B42CF27290F722100653E5A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3B42CF17290F722100653E5A;
+					};
+					3B42CF31290F722100653E5A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3B42CF17290F722100653E5A;
+					};
+				};
+			};
+			buildConfigurationList = 3B42CF13290F722100653E5A /* Build configuration list for PBXProject "TWVoteNote" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B42CF0F290F722100653E5A;
+			productRefGroup = 3B42CF19290F722100653E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B42CF17290F722100653E5A /* TWVoteNote */,
+				3B42CF27290F722100653E5A /* TWVoteNoteTests */,
+				3B42CF31290F722100653E5A /* TWVoteNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B42CF16290F722100653E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B42CF23290F722100653E5A /* Preview Assets.xcassets in Resources */,
+				3B42CF20290F722100653E5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B42CF26290F722100653E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B42CF30290F722100653E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B42CF14290F722100653E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B42CF1E290F722100653E5A /* ContentView.swift in Sources */,
+				3B42CF1C290F722100653E5A /* TWVoteNoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B42CF24290F722100653E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B42CF2D290F722100653E5A /* TWVoteNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B42CF2E290F722100653E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B42CF37290F722100653E5A /* TWVoteNoteUITests.swift in Sources */,
+				3B42CF39290F722100653E5A /* TWVoteNoteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B42CF2A290F722100653E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B42CF17290F722100653E5A /* TWVoteNote */;
+			targetProxy = 3B42CF29290F722100653E5A /* PBXContainerItemProxy */;
+		};
+		3B42CF34290F722100653E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B42CF17290F722100653E5A /* TWVoteNote */;
+			targetProxy = 3B42CF33290F722100653E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B42CF3A290F722100653E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B42CF3B290F722100653E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B42CF3D290F722100653E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TWVoteNote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quokkaism.TWVoteNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B42CF3E290F722100653E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TWVoteNote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quokkaism.TWVoteNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B42CF40290F722100653E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quokkaism.TWVoteNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWVoteNote.app/TWVoteNote";
+			};
+			name = Debug;
+		};
+		3B42CF41290F722100653E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quokkaism.TWVoteNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWVoteNote.app/TWVoteNote";
+			};
+			name = Release;
+		};
+		3B42CF43290F722100653E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quokkaism.TWVoteNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TWVoteNote;
+			};
+			name = Debug;
+		};
+		3B42CF44290F722100653E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quokkaism.TWVoteNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TWVoteNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B42CF13290F722100653E5A /* Build configuration list for PBXProject "TWVoteNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B42CF3A290F722100653E5A /* Debug */,
+				3B42CF3B290F722100653E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B42CF3C290F722100653E5A /* Build configuration list for PBXNativeTarget "TWVoteNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B42CF3D290F722100653E5A /* Debug */,
+				3B42CF3E290F722100653E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B42CF3F290F722100653E5A /* Build configuration list for PBXNativeTarget "TWVoteNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B42CF40290F722100653E5A /* Debug */,
+				3B42CF41290F722100653E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B42CF42290F722100653E5A /* Build configuration list for PBXNativeTarget "TWVoteNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B42CF43290F722100653E5A /* Debug */,
+				3B42CF44290F722100653E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B42CF10290F722100653E5A /* Project object */;
+}
